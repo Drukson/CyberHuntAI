@@ -3,7 +3,7 @@
 > Built by a cybersecurity job seeker who got tired of hearing "no experience."  
 > So I spent two months building the tool I wished existed.
 
-**🔴 Live demo:** https://drukson.github.io/cyberhunt-ai
+**🔴 Live demo:** https://drukson.github.io/CyberHuntAI/
 
 ---
 
