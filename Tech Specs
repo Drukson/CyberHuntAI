@@ -1,0 +1,63 @@
+---
+
+## Tech stack
+
+| Layer | Technology |
+|-------|-----------|
+| Frontend | Vanilla JavaScript — no framework, no dependencies |
+| AI | Anthropic Claude API (Sonnet 4 + Haiku 4.5) |
+| Search | Anthropic web search tool (web_search_20250305) |
+| Storage | localStorage (persistent across sessions) |
+| Export | RTF generator (pure JS — opens in Word, Google Docs, LibreOffice) |
+| Hosting | GitHub Pages (free, static) |
+| Backend | None — runs entirely in the browser |
+
+---
+
+## Why no backend?
+
+- Zero hosting cost
+- Zero security risk — your API key never leaves your browser
+- Zero maintenance — works as long as GitHub Pages exists
+- Anyone can download the HTML and run it locally
+
+---
+
+## Security & privacy
+
+- Your API key is stored only in your browser's localStorage
+- Your resume text is stored only in your browser's localStorage  
+- Nothing is sent to any server except the Anthropic API
+- The Anthropic API is end-to-end encrypted
+- You can clear all data anytime: Settings icon → Clear memory
+
+---
+
+## Built by
+
+**Drukson**
+
+This tool was built because I could not get a cybersecurity job without experience.  
+And I could not get experience without the job.  
+So I built something that proves the experience differently.
+
+
+## Roadmap
+
+- [ ] Multi-user mode (team / cohort use)
+- [ ] Direct Seek API integration when available
+- [ ] Resume version history and A/B comparison
+- [ ] WhatsApp / Telegram job alert integration
+- [ ] GPT-4o integration for confidence score averaging
+- [ ] Mobile-optimised layout
+
+---
+
+## Licence
+
+MIT — free to use, fork, and build on.  
+If this helps you get a job, I would love to hear about it.
+
+---
+
+*"The best way to prove you can do the job is to build something that proves it."*
